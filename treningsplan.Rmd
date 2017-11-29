@@ -1,0 +1,17 @@
+---
+title: "treningsplan"
+output:
+  rmarkdown::html_document:
+    theme: simplex
+    highlight: tango
+    css: stylesheet.css
+    include:
+      in_header: header.html
+      after_body: treningsplan_body.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Basert på et treningsplan funnet på <a href="http://www.oslomaraton.no">Oslo Maraton</a> sine hjemmesider.
